@@ -12,7 +12,7 @@ import joblib
 import numpy as np
 
 # Load model
-model = joblib.load("models/meta_model.pkl")
+model = joblib.load("fightiq_stacked90_meta_model.pkl")
 
 st.title("💸 FightEdge – Value Betting Tracker")
 
